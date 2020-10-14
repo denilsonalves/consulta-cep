@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="formCep">
+        <div class="form-group">
+          <label for="nome">Nome</label
+          ><input type="text" class="form-control" id="nome" />
+        </div>
+        <div class="form-group">
+          <label for="cep">CEP</label
+          ><input type="text" class="form-control" maxlength="9" id="cep" />
+        </div>
+        <div class="form-group">
+          <label for="logradouro">Logradouro</label
+          ><input type="text" class="form-control" id="logradouro" />
+        </div>
+        <div class="form-group">
+          <label for="numero">Número</label
+          ><input type="text" class="form-control" id="numero" />
+        </div>
+        <div class="form-group">
+          <label for="complemento">Complemento</label
+          ><input type="text" class="form-control" id="complemento" />
+        </div>
+        <div class="form-group">
+          <label for="bairro">Bairro</label
+          ><input type="text" class="form-control" id="bairro" />
+        </div>
+        <div class="form-group">
+          <label for="localidade">Cidade</label
+          ><input type="text" class="form-control" id="localidade" />
+        </div>
+        <div class="form-group">
+          <label for="uf">Estado</label
+          ><input type="text" class="form-control" id="uf" />
+        </div>
+        <input
+          type="submit"
+          name="btnAdicionar"
+          id="btnAdicionar"
+          value="Adicionar"
+        />
+      </form>
+      <table>
+        <caption>
+          <h2>Tabela</h2>
+        </caption>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Nascimento</th>
+            <th>Sexo</th>
+            <th>Ultima Atualização</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyResultados"></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

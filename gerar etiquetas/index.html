@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerar Etiquetas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <ul></ul>
+
+      <form id="formCep">
+        <div class="form-group">
+          <label for="nome">Nome</label
+          ><input type="text" class="form-control" id="nome" />
+        </div>
+        <div class="form-group">
+          <label for="cep">CEP</label
+          ><input type="text" class="form-control" maxlength="9" id="cep" />
+        </div>
+        <div class="form-group">
+          <label for="logradouro">Logradouro</label
+          ><input type="text" class="form-control" id="logradouro" />
+        </div>
+        <div class="form-group">
+          <label for="numero">Número</label
+          ><input type="text" class="form-control" id="numero" />
+        </div>
+        <div class="form-group">
+          <label for="complemento">Complemento</label
+          ><input type="text" class="form-control" id="complemento" />
+        </div>
+        <div class="form-group">
+          <label for="bairro">Bairro</label
+          ><input type="text" class="form-control" id="bairro" />
+        </div>
+        <div class="form-group">
+          <label for="localidade">Cidade</label
+          ><input type="text" class="form-control" id="localidade" />
+        </div>
+        <div class="form-group">
+          <label for="uf">Estado</label
+          ><input type="text" class="form-control" id="uf" />
+        </div>
+
+        <button>Adicionar</button>
+        <a href="etiquetas.html" target="_blank" rel="noopener noreferrer"
+          >Gerar Etiquetas</a
+        >
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bytescoutbarcode128_1.00.07.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
